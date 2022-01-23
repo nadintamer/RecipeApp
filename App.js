@@ -7,9 +7,6 @@ export default function App() {
   return (
     <View style={styles.container}>
       <RecipeDetail/>
-      <RecipeRow/>
-      <Text>WiCS Fellows recipe app</Text>
-      <StatusBar style="auto" />
     </View>
   );
 }

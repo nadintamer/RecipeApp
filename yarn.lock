@@ -2847,6 +2847,11 @@
   dependencies:
     "source-map" "^0.7.3"
 
+"html-entities@^2.3.2":
+  "integrity" "sha512-c3Ab/url5ksaT0WyleslpBEthOzWhrjQbg75y7XUsfSzi3Dgzt0l8w5e7DylRn15MTlMMD58dTfzddNS2kcAjQ=="
+  "resolved" "https://registry.npmjs.org/html-entities/-/html-entities-2.3.2.tgz"
+  "version" "2.3.2"
+
 "http-errors@1.8.1":
   "integrity" "sha512-Kpk9Sm7NmI+RHhnj6OIWDI1d6fIoFAtFt9RLaTMRlg/8w49juAStsrBgp0Dp4OdxdVbRIeKhtCUvoi/RuAhO4g=="
   "resolved" "https://registry.npmjs.org/http-errors/-/http-errors-1.8.1.tgz"
