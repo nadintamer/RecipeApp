@@ -5,7 +5,7 @@ export default function RecipeRow({ title, category, imageUrl }) {
   return (
     <View style={styles.container}>
       <Image style={styles.image} source={{ uri: imageUrl }}/>
-      <View>
+      <View style={styles.entry}>
         <Text style={styles.titleText}>{title}</Text>
         <Text style={styles.categoryText}>{category}</Text>
       </View>
@@ -22,6 +22,9 @@ const styles = StyleSheet.create({
     justifyContent: 'flex-start',
     backgroundColor: Colors.lightTurquoise,
     borderRadius: 10,
+  },
+  entry: {
+    flex: 1,
   },
   titleText: {
     color: 'black',
